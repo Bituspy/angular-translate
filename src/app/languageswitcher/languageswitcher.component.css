@@ -1,0 +1,16 @@
+select {
+    width: 100%;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid #425a52;
+    background: #fff;
+    font-size: 1rem;
+    font-family: inherit;
+    color: #425a52;
+    cursor: pointer;
+    outline: none;
+}
+
+.language-switcher {
+    display: inline;
+}

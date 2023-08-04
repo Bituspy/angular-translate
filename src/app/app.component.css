@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: grid;
+  place-content: center;
+  background: #425a49;
+}
+
+
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.card {
+    text-align: center;
+  width: 24rem;
+  height: 10rem;
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+  position: relative;
+  color:  rgb(240, 240, 240);
+  box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
+  background-color:#afa478;
+ 
+  h2 {
+    position: absolute;
+    inset: auto auto 30px 30px;
+    margin: 0;
+    transition: inset .3s .3s ease-out;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+  }
+  
+ 
+  
+}
+  
+ 
+ button {
+    background-color: white;
+    border: none;
+    border-radius: 50px;
+    height: 30px;
+    transition: all .3s ease-out;
+}
+
+button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
